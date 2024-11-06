@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', 'sans-serif';
+}
+
+body{
+    background-color: #f4f5f3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.5px;
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    padding: 20px, 10px;
+    box-shadow:  0 0 20px rgba(0,0,0,0.1);
+
+}
+.menu a{
+    text-decoration: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #999;
+    padding: 0 20px;
+    transition: 0.5s;
+}
+
+.menu a:hover{
+    color:#7c94e4;
+}
